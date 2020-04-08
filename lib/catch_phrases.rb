@@ -13,7 +13,7 @@ def link
   puts phrase
 end
 
-def all_phrases (character)
+def all_phrases
   if character = "Mario"
     puts "It's-a me, Mario!"
   elsif character = "toadstool"
