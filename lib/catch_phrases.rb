@@ -14,10 +14,7 @@ def link
 end
 
 def all_phrases
-  if character = "Mario"
-    puts "It's-a me, Mario!"
-  elsif character = "toadstool"
-    puts 'Thank You Mario! But Our Princess Is In Another Castle!'
-  else character = "link"
-    puts "It's Dangerous To Go Alone! Take This."
+  mario
+  toadstool
+  link
 end
